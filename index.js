@@ -2,7 +2,7 @@ calcularNivel(50, 2);
 
 function calcularNivel(vitorias, derrotas) {
 
-    const saldoVitorias = vitorias - derrotas;
+    const saldoTotal = vitorias - derrotas;
 
     let nivel;
 
@@ -22,5 +22,5 @@ function calcularNivel(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
+    console.log(`O Herói tem um saldo de ${saldoTotal} e está no nível de ${nivel}`);
 }
